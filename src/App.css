@@ -1,0 +1,68 @@
+body {
+  font-family: "sans-serif";
+}
+
+#prorate-component {
+  margin: 0 auto;
+  width: 60%;
+}
+
+#prorate-component .form-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding: 0;
+  display: inline-block;
+}
+
+#prorate-component > * {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#prorate-form input, button {
+  line-height: 1.5rem;
+  border: 2px solid gray;
+  padding: 0.25rem 0 0.25rem 0.75rem;
+  margin-right: 1.25rem;
+  border-radius: 4px;
+}
+
+#prorate-form button {
+  background-color: white;
+  border-radius: 6px;
+  padding: 0.5rem 1.25rem;
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#prorate-form input[type="submit"] {
+  background-color: #6860ec;
+  border-radius: 6px;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.inputs {
+  background-color: #e0e5eb;
+  border: 2px solid #a3adb9;
+}
+
+.results {
+  background-color: #ffffff;
+  border: 2px solid #e4e8eb;
+}
+
+.form-section {
+  margin-bottom: 1.5rem;
+}
+
+.form-section > .title {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  display: inline-block;
+}
