@@ -18,7 +18,8 @@ function App() {
 
   const calculateAllocations = async (event) => {
     event.preventDefault()
-    const url = process.env.API
+    console.log(import.meta.env)
+    const url = import.meta.env.VITE_API
     const body = { allocation, investors }
 
     try {
