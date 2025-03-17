@@ -18,7 +18,7 @@ function App() {
 
   const calculateAllocations = async (event) => {
     event.preventDefault()
-    const url = 'http://localhost:3000'
+    const url = process.env.API
     const body = { allocation, investors }
 
     try {
